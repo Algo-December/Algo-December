@@ -15,9 +15,14 @@
 
 - 문제 풀이 파일
   - `00000_문제이름_이름.py`
-
+    - 문제이름은 띄어쓰기 없이!
 - 이슈 정리 마크다운
-  - `000000.md`
+  - `211203.md`
+- commit convention
+  - 문제 푼거 올릴 때 `Solve: 00000`
+  - 수정할 때 `Edit: 0000`
+  - 리팩토링 `Refact: 0000`
+  - 이슈 올릴 때 `Issue: 날짜`
 
 ### Study Rule
 
@@ -43,7 +48,7 @@
 
 ## Directory tree structure :evergreen_tree:
 
-- `플랫폼/문제번호_문제이름_이름` 형식
+- `플랫폼/문제번호_문제이름/문제번호_문제이름_이름.py` 형식
 
 ```
 Algo-December
@@ -54,10 +59,3 @@ Algo-December
 |   `-- templates
 `-- README.md
 ```
-
-
-
-
-
-## 
-
