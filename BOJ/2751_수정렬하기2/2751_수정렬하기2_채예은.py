@@ -1,51 +1,23 @@
-def quick_sort(A):
+# n의 범위가 1,000,000이므로 nlogn정렬 X -> 카운팅정렬
+import sys
+input = sys.stdin.readline
 
-    if len(A) < 2:
-        return A
+n = int(input())
 
-    criteria = A[-1]
-    p1 = []
-    p2 = []
-    middle = [criteria]
-    for a in A[:-1]:
-        if a < criteria:
-            p1.append(a)
-        elif a > criteria:
-            p2.append(a)
-        else:
-            middle.append(a)
-    return quick_sort(p1) + middle + quick_sort(p2)
+pos_count = [0] * 1000001  # 0 ~ 1000000
+neg_count = [0] * 1000001  # -1 ~ -1000000
 
+for _ in range(n):
+    num = int(input())
+    if num >= 0:  # 0은 pos_count에서 센다
+        pos_count[num] += 1
+    else:
+        neg_count[abs(num)] += 1
 
-def merge_sort(arr):
-    n = len(arr)
-    if n == 1:
-        return arr
-    # 1. 분할
-    left = merge_sort(arr[:n // 2])
-    right = merge_sort(arr[n // 2:])
-    # 2. 병합
-    i = j = 0
-    merged = []
-    while i < len(left) and j < len(right):
-        if left[i] < right[j]:
-            merged.append(left[i])
-            i += 1
-        else:
-            merged.append(right[j])
-            j += 1
-    if i < len(left):
-        merged += left[i:]
-    elif j < len(right):
-        merged += right[j:]
-    return merged
+for i in range(1000000, 0, -1):
+    if neg_count[i]:
+        print(-i)
 
-
-N = int(input())
-arr = []
-for _ in range(N):
-    arr.append(int(input()))
-
-sorted_arr = quick_sort(arr)
-for num in sorted_arr:
-    print(num)
+for j in range(1000001):
+    if pos_count[j]:
+        print(j)
