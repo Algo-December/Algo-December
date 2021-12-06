@@ -1,27 +1,22 @@
+# 2개의 스택
+
 import sys
 input = sys.stdin.readline
 
-chars = list(input().rstrip())  # 리스트
-cursor = len(chars)
+stack1 = list(input().rstrip())
+stack2 = []
 
 m = int(input())
 for _ in range(m):
     tmp = input().split()
     command = tmp[0]
-
-    if command == 'L' and cursor != 0:
-        cursor -= 1
-    elif command == 'D' and cursor != len(chars):
-        cursor += 1
-    elif command == 'B' and cursor != 0:
-        # chars = chars[:cursor-1] + chars[cursor:]
-        chars.pop(cursor-1)
-        cursor -= 1
+    if command == 'L' and stack1:
+        stack2.append(stack1.pop())
+    elif command == 'D' and stack2:
+        stack1.append(stack2.pop())
+    elif command == 'B' and stack1:
+        stack1.pop()
     elif command == 'P':
-        back = []
-        if cursor != len(chars):
-            back = chars[cursor:]
-        chars = chars[:cursor] + [tmp[1]] + back
-        cursor += 1
+        stack1.append(tmp[1])
 
-print(''.join(chars))
+print(''.join(stack1 + stack2[::-1]))
