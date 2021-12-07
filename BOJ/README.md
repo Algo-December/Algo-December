@@ -19,9 +19,11 @@
 
 ## 1209
 
-– [1026 보물](https://www.acmicpc.net/problem/1026)
-– [1181 단어 정렬](https://www.acmicpc.net/problem/1181)
-– [11650 좌표 정렬하기](https://www.acmicpc.net/problem/11650)
+- [1026 보물](https://www.acmicpc.net/problem/1026)
+- [1181 단어 정렬](https://www.acmicpc.net/problem/1181)
+- [11650 좌표 정렬하기](https://www.acmicpc.net/problem/11650)
+
 - [11651 좌표 정렬하기 2](https://www.acmicpc.net/problem/11651)
-– [10867 중복 빼고 정렬하기](https://www.acmicpc.net/problem/10867)
-– [10816 숫자 카드 2](https://www.acmicpc.net/problem/10816)
+- [10867 중복 빼고 정렬하기](https://www.acmicpc.net/problem/10867)
+- [10816 숫자 카드 2](https://www.acmicpc.net/problem/10816)
+
