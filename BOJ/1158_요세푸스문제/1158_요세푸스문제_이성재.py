@@ -29,3 +29,15 @@ while numbers:
     result.append(numbers.pop(start))
 
 print(f'<{", ".join(map(str, result))}>')
+
+
+# 100ms, 맨 위 풀이를 rotate 메서드를 이용해서
+n, k = map(int, input().split())
+queue = deque(range(1, n + 1))
+result = []
+
+while queue:
+    queue.rotate(-k+1)  # 왼쪽 방향으로 k-1만큼 회전
+    result.append(queue.popleft())
+
+print(f'<{", ".join(map(str, result))}>')
