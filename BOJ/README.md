@@ -22,15 +22,11 @@
 - [1026 보물](https://www.acmicpc.net/problem/1026)
 - [1181 단어 정렬](https://www.acmicpc.net/problem/1181)
 - [11650 좌표 정렬하기](https://www.acmicpc.net/problem/11650)
-<<<<<<< HEAD
-=======
-
->>>>>>> 342bccb5ba2ea1bb013c32f498087ffd35c88d7d
 - [11651 좌표 정렬하기 2](https://www.acmicpc.net/problem/11651)
 - [10867 중복 빼고 정렬하기](https://www.acmicpc.net/problem/10867)
 - [10816 숫자 카드 2](https://www.acmicpc.net/problem/10816)
 
-<<<<<<< HEAD
+
 ## 1213
 
 - [9012 괄호](https://www.acmicpc.net/problem/9012)
@@ -38,6 +34,3 @@
 - [1158 조세퍼스 문제 ](https://www.acmicpc.net/problem/1158)
 - [1966 프린터 큐 ](https://www.acmicpc.net/problem/1966)
 - [5430 AC ](https://www.acmicpc.net/problem/5430)
-
-=======
->>>>>>> 342bccb5ba2ea1bb013c32f498087ffd35c88d7d
