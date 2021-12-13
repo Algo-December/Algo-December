@@ -34,3 +34,13 @@
 - [1158 요세푸스 문제 ](https://www.acmicpc.net/problem/1158)
 - [1966 프린터 큐 ](https://www.acmicpc.net/problem/1966)
 - [5430 AC ](https://www.acmicpc.net/problem/5430)
+
+## 1216
+
+- [6603 로또](https://www.acmicpc.net/problem/6603)
+
+- [1182 부분집합의 합](https://www.acmicpc.net/problem/1182)
+
+- [9095 1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)
+- [9663 N-Queen](https://www.acmicpc.net/problem/9663)
+
