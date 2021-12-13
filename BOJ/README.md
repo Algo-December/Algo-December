@@ -31,6 +31,6 @@
 
 - [9012 괄호](https://www.acmicpc.net/problem/9012)
 - [1874 스택 수열](https://www.acmicpc.net/problem/1874)
-- [1158 조세퍼스 문제 ](https://www.acmicpc.net/problem/1158)
+- [1158 요세푸스 문제 ](https://www.acmicpc.net/problem/1158)
 - [1966 프린터 큐 ](https://www.acmicpc.net/problem/1966)
 - [5430 AC ](https://www.acmicpc.net/problem/5430)
