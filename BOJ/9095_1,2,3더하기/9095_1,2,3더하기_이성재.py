@@ -20,7 +20,7 @@ for _ in range(T):
 a, b, c = 1, 2, 4
 
 result = [1, 2, 4]
-for _ in range(4, 11):
+for _ in range(4, 12):
     d = a + b + c
     result.append(d)
     a = b
@@ -29,7 +29,7 @@ for _ in range(4, 11):
 
 T = int(input())
 for _ in range(T):
-    print(result[int(input())])
+    print(result[int(input()) - 1])
 
 
 
