@@ -44,3 +44,10 @@
 - [9095 1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)
 - [9663 N-Queen](https://www.acmicpc.net/problem/9663)
 
+## 1220
+
+- [14889 스타트와 링크](https://www.acmicpc.net/problem/14889)
+- [15686 치킨 배달](https://www.acmicpc.net/problem/15686)
+- [2661 좋은수열](https://www.acmicpc.net/problem/2661)
+- [2580 스도쿠](https://www.acmicpc.net/problem/2580)
+
