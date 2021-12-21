@@ -1,78 +1,57 @@
 import sys
-from collections import deque
+import copy
 input = sys.stdin.readline
 
-DIRECTION = ((0, 1), (1, 0), (0, -1), (-1, 0))
 
-
-def bfs(row, col, d):
-    global cnt
-    global flag
-
-    check[row][col] = 1
-
-    if matrix[row][col] > 1:
-        # 치킨집
-        matrix[row][col] += 1
-        cnt += d
-        flag = 1
+def make_comb(level, now):
+    if len(now) == m:
+        combs.append(copy.deepcopy(now))
         return
 
-    for dir in DIRECTION:  # 4방향 탐색
-        new_row = row+dir[0]
-        new_col = col+dir[1]
-        if 0 <= new_row < n and 0 <= new_col < n:
-            queue.append((new_row, new_col, d+1))
+    if level == k:
+        return
 
-    while queue:
-        if flag:
-            return
-        now = queue.popleft()
-        bfs(now[0], now[1], now[2])
-        check[now[0]][now[1]] = 0
+    now.append(level)
+    make_comb(level+1, now)
+    now.pop()
+    make_comb(level+1, now)
 
 
-n, m = map(int, input().split())
+n, m = map(int, input().split())  # m: 남겨야하는 치킨집 개수
 matrix = [list(map(int, input().split())) for _ in range(n)]
-cnt = 0
 
-
-chicken_cnt = 0
-# 가장 가까운 치킨집 찾기
+houses = []
+chickens = []
 for r in range(n):
     for c in range(n):
         if matrix[r][c] == 1:
-            check = [[0]*n for _ in range(n)]
-            flag = 0
-            queue = deque()
-            bfs(r, c, 0)
-        elif matrix[r][c] > 1:
-            chicken_cnt += 1
+            houses.append((r, c))
+        elif matrix[r][c] == 2:
+            chickens.append((r, c))
 
-# 치킨집 폐업
-if m < chicken_cnt:
-    chicken_house = []
-    for r in range(n):
-        for c in range(n):
-            if matrix[r][c] > 1:
-                chicken_house.append((matrix[r][c], r, c))
-    chicken_house.sort(reverse=True)
-    for _ in range(chicken_cnt-m):
-        closed = chicken_house.pop()
-        matrix[closed[1]][closed[2]] = 0
+# 각 집과 치킨집 사이의 거리를 2차원 배열로 저장
+# distances[i][j] : i번째 치킨집과 j번째 집 사이 거리
+distances = []  # 행: 치킨집 / 열: 집
+k = len(chickens)
+for i in range(k):
+    row = []
+    for j in range(len(houses)):
+        r1, c1 = houses[j]
+        r2, c2 = chickens[i]
+        row.append(abs(r1-r2) + abs(c1-c2))
+    distances.append(row)
 
-# 최소거리 찾기
-cnt = 0
+combs = []
+make_comb(0, [])  # k개(0~k-1) 중에서 m개를 뽑는 조합
 
-for r in range(n):
-    for c in range(n):
-        if matrix[r][c] == 1:
-            check = [[0]*n for _ in range(n)]
-            flag = 0
-            queue = deque()
-            bfs(r, c, 0)
+result = float('inf')
+for comb in combs:
+    cnt = 0
+    for h in range(len(houses)):  # 모든 집을 돌면서
+        cnt += min(distances[c][h] for c in comb)  # m개의 치킨집까지의 거리들 중 최소값
+        if cnt >= result:
+            break
+    if cnt < result:
+        result = cnt
 
-print(cnt)
-print(chicken_cnt-m)
-print(matrix)
-
+print(result)
