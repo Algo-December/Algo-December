@@ -72,3 +72,9 @@
 - [1932 정수 삼각형](https://www.acmicpc.net/problem/1932)
 - [1149 RGB거리](https://www.acmicpc.net/problem/1149)
 
+- [2688 줄어들지 않아](https://www.acmicpc.net/problem/2688)
+
+- [2156 포도주 시식](https://www.acmicpc.net/problem/2156)
+
+- [12865 평범한 배낭](https://www.acmicpc.net/problem/12865)
+
