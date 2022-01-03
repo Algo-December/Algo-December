@@ -38,9 +38,7 @@
 ## 1216
 
 - [6603 로또](https://www.acmicpc.net/problem/6603)
-
 - [1182 부분집합의 합](https://www.acmicpc.net/problem/1182)
-
 - [9095 1, 2, 3 더하기](https://www.acmicpc.net/problem/9095)
 - [9663 N-Queen](https://www.acmicpc.net/problem/9663)
 
@@ -66,16 +64,12 @@
 ## 0103
 
 - [1003 피보나치 함수](https://www.acmicpc.net/problem/1003)
-
 - [1463 1로 만들기](https://www.acmicpc.net/problem/1463)
 - [2579 계단 오르기](https://www.acmicpc.net/problem/2579)
 - [1932 정수 삼각형](https://www.acmicpc.net/problem/1932)
 - [1149 RGB거리](https://www.acmicpc.net/problem/1149)
-
 - [2688 줄어들지 않아](https://www.acmicpc.net/problem/2688)
-
 - [2156 포도주 시식](https://www.acmicpc.net/problem/2156)
-
 - [12865 평범한 배낭](https://www.acmicpc.net/problem/12865)
 
 ## 0106
