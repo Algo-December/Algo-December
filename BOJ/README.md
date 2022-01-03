@@ -78,3 +78,12 @@
 
 - [12865 평범한 배낭](https://www.acmicpc.net/problem/12865)
 
+## 0106
+
+- [2206 벽 부수고 이동하기](https://www.acmicpc.net/problem/2206)
+- [7576 토마토](https://www.acmicpc.net/problem/7576)
+- [7569 토마토](https://www.acmicpc.net/problem/7569)
+- [9466 텀 프로젝트](https://www.acmicpc.net/problem/9466)
+- [2636 치즈](https://www.acmicpc.net/problem/2636)
+- [2583 영역 구하기](https://www.acmicpc.net/problem/2583)
+
