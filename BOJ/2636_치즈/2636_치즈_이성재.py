@@ -3,6 +3,7 @@ import sys
 input = sys.stdin.readline
 
 def bfs():
+    # 테두리
     base = [(i, 0) for i in range(n - 1)] +\
             [(n - 1, j) for j in range(m - 1)] +\
             [(i, m - 1) for i in range(1, n)] +\
@@ -10,13 +11,13 @@ def bfs():
     queue = deque(base)
     cnt = 0
     while queue:
-        base = []
+        base = []  # 다음 큐, 0으로 바뀐 치즈 좌표만 담는다.
         while queue:
             y, x = queue.popleft()
             for ny, nx in [(y + 1, x), (y - 1, x), (y, x + 1), (y, x - 1)]:
                 if 0 <= ny < n and 0 <= nx < m and not visited[ny][nx]:
                     visited[ny][nx] = True
-                    if graph[ny][nx] == '1':
+                    if graph[ny][nx] == '1':  # 치즈면 0으로 바꾸고 다음 큐에 담음
                         graph[ny][nx] = '0'
                         base.append((ny, nx))
                     else:
@@ -25,7 +26,7 @@ def bfs():
         cnt += 1
         if base:
             queue = deque(base)
-            cheese = len(base)
+            cheese = len(base)  # 이번에 0으로 바꾼 치즈 개수
 
     return cnt, cheese
 
