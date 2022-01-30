@@ -89,3 +89,15 @@
 - [11052 카드 구매하기](https://www.acmicpc.net/problem/11052)
 - [11053 가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053)
 
+## 0124
+
+- [11047 동전 0](https://www.acmicpc.net/problem/11047)
+- [1931 회의실배정](https://www.acmicpc.net/problem/1931)
+- [2217 로프](https://www.acmicpc.net/problem/2217)
+- [2529 부등호](https://www.acmicpc.net/problem/2529)
+
+## 0131
+
+- [1927 최소 힙](https://www.acmicpc.net/problem/1927)
+- [11279 최대 힙](https://www.acmicpc.net/problem/11279)
+
