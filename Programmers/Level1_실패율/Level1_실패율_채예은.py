@@ -9,9 +9,15 @@ def solution(N, stages):
     p = m  # 스테이지에 도달한 플레이어 수 카운팅
     for i in range(1, N + 1):
         p -= stop_cnt[i - 1]  # 점점 감소
-        rates.append((stop_cnt[i] / p, i))  # (실패율, 인덱스)
+        if p == 0:  # 0으로 나누는 경우 처리 -> 안하면 런타임에러 발생함
+            rates.append((0, i))
+        else:
+            rates.append((stop_cnt[i] / p, i))  # (실패율, 인덱스)
     r = sorted(rates, key=lambda rate: (-rate[0], rate[1]))
-    # rates.sort(key=lambda rate: (-rate[0], rate[1]))  # -를 붙이면 내림차순
-    # print(r)
     answer = [rate[1] for rate in r]
     return answer
+
+
+b = [2, 1, 2, 6, 2, 4, 3, 3, 0]
+result = solution(5, b)
+print(result)
