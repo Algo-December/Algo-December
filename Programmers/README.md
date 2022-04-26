@@ -17,3 +17,10 @@
 - [[Level 1] 실패율](https://programmers.co.kr/learn/courses/30/lessons/42889)
 - [[Level 2] 거리두기 확인하기](https://programmers.co.kr/learn/courses/30/lessons/81302)
 - [[Level 2] 튜플](https://programmers.co.kr/learn/courses/30/lessons/64065)
+
+### 0502
+
+- [[Level 1] 비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681)
+- [[Level 1] 다트게임](https://programmers.co.kr/learn/courses/30/lessons/17682)
+- [[Level 2] 뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677)
+- [[Level 2] 메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)
