@@ -24,3 +24,9 @@
 - [[Level 1] 다트게임](https://programmers.co.kr/learn/courses/30/lessons/17682)
 - [[Level 2] 뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677)
 - [[Level 2] 메뉴 리뉴얼](https://programmers.co.kr/learn/courses/30/lessons/72411)
+
+### 0516
+
+- [[Level 2] 방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683)
+- [[Level 2] 순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)
+
