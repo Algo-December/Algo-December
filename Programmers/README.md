@@ -30,3 +30,8 @@
 - [[Level 2] 방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683)
 - [[Level 2] 순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412)
 
+### 0606
+
+- [[Level 2] k진수에서 소수 개수 구하기](https://programmers.co.kr/learn/courses/30/lessons/92335)
+- [[Level 2] 주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341)
+- [[Level 2] 양궁대회](https://programmers.co.kr/learn/courses/30/lessons/92342)
