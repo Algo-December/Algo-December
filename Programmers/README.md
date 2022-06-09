@@ -35,3 +35,11 @@
 - [[Level 2] k진수에서 소수 개수 구하기](https://programmers.co.kr/learn/courses/30/lessons/92335)
 - [[Level 2] 주차 요금 계산](https://programmers.co.kr/learn/courses/30/lessons/92341)
 - [[Level 2] 양궁대회](https://programmers.co.kr/learn/courses/30/lessons/92342)
+
+### 0613
+
+- [[Level 2] 수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257)
+- [[Level 2] 괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058)
+- [[Level 2] 후보키](https://programmers.co.kr/learn/courses/30/lessons/42890)
+- [[Level 2] 프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679)
+
