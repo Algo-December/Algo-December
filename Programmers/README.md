@@ -43,3 +43,10 @@
 - [[Level 2] 후보키](https://programmers.co.kr/learn/courses/30/lessons/42890)
 - [[Level 2] 프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679)
 
+### 0620
+
+- [[Level 2]캐시](https://programmers.co.kr/learn/courses/30/lessons/17680)
+- [[Level 2] 압축](https://programmers.co.kr/learn/courses/30/lessons/17684)
+- [[Level 3] 합승택시요금](https://programmers.co.kr/learn/courses/30/lessons/72413)
+- [[Level 3]자물쇠와열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059)
+
