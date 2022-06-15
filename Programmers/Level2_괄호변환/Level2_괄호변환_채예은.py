@@ -1,4 +1,4 @@
-def is_wright(w):
+def is_right(w):
     stack = []
     for i in range(len(w)):
         if w[i] == '(':
@@ -7,7 +7,7 @@ def is_wright(w):
             if len(stack) == 0:
                 return False
             stack.pop()
-    if len(stack) > 0:
+    if stack:
         return False
     return True
 
@@ -34,7 +34,7 @@ def bracket(w):
             u, v = w[:i+1], w[i+1:]
             break
 
-    if is_wright(u):
+    if is_right(u):
         return u + bracket(v)
     else:
         rst = '(' + bracket(v) + ')' + get_reverse(u[1:-1])
@@ -42,7 +42,7 @@ def bracket(w):
 
 
 def solution(p):
-    if is_wright(p):
+    if is_right(p):
         return p
     answer = bracket(p)
     return answer
