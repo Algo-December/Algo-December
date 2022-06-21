@@ -45,8 +45,18 @@
 
 ### 0620
 
-- [[Level 2]캐시](https://programmers.co.kr/learn/courses/30/lessons/17680)
+- [[Level 2] 캐시](https://programmers.co.kr/learn/courses/30/lessons/17680)
 - [[Level 2] 압축](https://programmers.co.kr/learn/courses/30/lessons/17684)
 - [[Level 3] 합승택시요금](https://programmers.co.kr/learn/courses/30/lessons/72413)
-- [[Level 3]자물쇠와열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059)
+- [[Level 3] 자물쇠와열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059)
+
+### 0627
+
+- [[Level 2] 파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686)
+
+- [[Level 2] n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687)
+
+- [[Level 3] 기둥과 보 설치](https://programmers.co.kr/learn/courses/30/lessons/60061)
+
+- [[Level 4] 가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060)
 
