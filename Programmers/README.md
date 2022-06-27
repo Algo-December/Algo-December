@@ -53,10 +53,13 @@
 ### 0627
 
 - [[Level 2] 파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686)
-
 - [[Level 2] n진수 게임](https://programmers.co.kr/learn/courses/30/lessons/17687)
-
 - [[Level 3] 기둥과 보 설치](https://programmers.co.kr/learn/courses/30/lessons/60061)
-
 - [[Level 4] 가사 검색](https://programmers.co.kr/learn/courses/30/lessons/60060)
+
+### 0704
+
+- [[Level 3] 광고 삽입](https://programmers.co.kr/learn/courses/30/lessons/72414)
+- [[Level 3] 보석 쇼핑](https://programmers.co.kr/learn/courses/30/lessons/67258)
+- [[Level 3] 외벽 점검](https://programmers.co.kr/learn/courses/30/lessons/60062)
 
