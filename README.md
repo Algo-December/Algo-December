@@ -52,8 +52,6 @@
 
 ```
 ├─BOJ
-│  ├─.idea
-│  │  └─inspectionProfiles
 │  ├─1003_피보나치함수
 │  ├─1026_보물
 │  ├─10815_숫자카드
@@ -137,6 +135,34 @@
 ├─Issues
 │  ├─211203.assets
 │  └─templates
+├─Programmers
+│  ├─Leve2_압축
+│  ├─Level1_다트게임
+│  ├─Level1_비밀지도
+│  ├─Level1_신고결과받기
+│  ├─Level1_신규아이디추천
+│  ├─Level1_실패율
+│  ├─Level1_크레인인형뽑기게임
+│  ├─Level2_k진수에서소수개수구하기
+│  ├─Level2_거리두기확인하기
+│  ├─Level2_괄호변환
+│  ├─Level2_뉴스클러스터링
+│  ├─Level2_메뉴리뉴얼
+│  ├─Level2_문자열압축
+│  ├─Level2_방금그곡
+│  ├─Level2_수식최대화
+│  ├─Level2_순위검색
+│  ├─Level2_압축
+│  ├─Level2_양궁대회
+│  ├─Level2_오픈채팅방
+│  ├─Level2_주차요금계산
+│  ├─Level2_캐시
+│  ├─Level2_튜플
+│  ├─Level2_프렌즈4블록
+│  ├─Level2_후보키
+│  ├─Level3_자물쇠와열쇠
+│  └─Level3_합승택시요금
+├─README.assets
 └─SWEA
     ├─1865_동철이의일분배
     ├─2382_미생물격리
