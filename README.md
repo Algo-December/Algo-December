@@ -5,9 +5,10 @@
 ## Environment :earth_asia:
 
 - Programming Language
-  - Python
+  -  Python
 - Algorithm Site
   - BOJ : [https://www.acmicpc.net/](https://www.acmicpc.net/)
+  - Programmers : https://school.programmers.co.kr/learn/challenges
 
 ## Rule :straight_ruler:
 
@@ -144,6 +145,7 @@
 │  ├─Level1_실패율
 │  ├─Level1_크레인인형뽑기게임
 │  ├─Level2_k진수에서소수개수구하기
+│  ├─Level2_n진수게임
 │  ├─Level2_거리두기확인하기
 │  ├─Level2_괄호변환
 │  ├─Level2_뉴스클러스터링
@@ -158,10 +160,16 @@
 │  ├─Level2_주차요금계산
 │  ├─Level2_캐시
 │  ├─Level2_튜플
+│  ├─Level2_파일명정렬
 │  ├─Level2_프렌즈4블록
 │  ├─Level2_후보키
+│  ├─Level3_광고삽입
+│  ├─Level3_기둥과보설치
+│  ├─Level3_보석쇼핑
+│  ├─Level3_외벽점검
 │  ├─Level3_자물쇠와열쇠
-│  └─Level3_합승택시요금
+│  ├─Level3_합승택시요금
+│  └─Level4_가사검색
 ├─README.assets
 └─SWEA
     ├─1865_동철이의일분배
