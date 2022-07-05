@@ -63,3 +63,8 @@
 - [[Level 3] 보석 쇼핑](https://programmers.co.kr/learn/courses/30/lessons/67258)
 - [[Level 3] 외벽 점검](https://programmers.co.kr/learn/courses/30/lessons/60062)
 
+### 0711
+
+- [[Level 1] 키패드 누르기](https://school.programmers.co.kr/learn/courses/30/lessons/67256)
+- [[Level 1] 숫자 문자열과 영단어](https://school.programmers.co.kr/learn/courses/30/lessons/81301)
+- [[Level 3] 불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064)
