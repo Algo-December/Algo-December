@@ -10,25 +10,23 @@ def solution(user_id, banned_id):
     def dfs(level, comb):
         # base case
         if level == len(banned_id)-1:
-            tmp = list(set(comb))
-            if len(tmp) == len(comb):
-                cases.add(tuple(sorted(tmp)))
+            cases.add(tuple(sorted(comb)))
             return
-        for nj in range(len(combs[level+1])):
-            if combs[level+1][nj] not in comb:
-                dfs(level+1, comb+[combs[level+1][nj]])
+        for nj in range(len(graph[level+1])):
+            if graph[level+1][nj] not in comb:
+                dfs(level+1, comb+[graph[level+1][nj]])
 
-    combs = []
+    graph = []
     for ban in banned_id:
         tmp = []
         for user in user_id:
             if compare(user, ban):
                 tmp.append(user)
-        combs.append(tmp)
+        graph.append(tmp)
 
     cases = set()
-    for j in range(len(combs[0])):
-        dfs(0, [combs[0][j]])
+    for j in range(len(graph[0])):
+        dfs(0, [graph[0][j]])
 
     return len(cases)
 
