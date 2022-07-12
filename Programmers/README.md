@@ -68,3 +68,9 @@
 - [[Level 1] 키패드 누르기](https://school.programmers.co.kr/learn/courses/30/lessons/67256)
 - [[Level 1] 숫자 문자열과 영단어](https://school.programmers.co.kr/learn/courses/30/lessons/81301)
 - [[Level 3] 불량 사용자](https://school.programmers.co.kr/learn/courses/30/lessons/64064)
+
+### 0718
+
+- [[Level 2] 기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586)
+- [[Level 2] 조이스틱](https://school.programmers.co.kr/learn/courses/30/lessons/42860)
+- [[Level 3] 셔틀버스](https://school.programmers.co.kr/learn/courses/30/lessons/17678)
