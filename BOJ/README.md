@@ -139,3 +139,8 @@
 
 - [1915 가장 큰 정사각형](https://www.acmicpc.net/problem/1915)
 - [11066 파일 합치기](https://www.acmicpc.net/problem/11066)
+
+## 0725
+
+- [구슬 탈출 2](https://www.acmicpc.net/problem/13460)
+- [2048 (Easy)](https://www.acmicpc.net/problem/12100)
