@@ -1,4 +1,3 @@
-# 통과 못함
 import copy
 import sys
 input = sys.stdin.readline
@@ -26,8 +25,6 @@ def move(dir, level):
                 for block in row[1:]:
                     if block == num:
                         new_row[-1] = block * 2
-                        # 최대값 갱신
-                        answer = max(answer, block * 2)
                         num = 0
                     else:
                         new_row.append(block)
@@ -41,8 +38,6 @@ def move(dir, level):
                 for block in row[-2::-1]:
                     if block == num:
                         new_row[-1] = block * 2
-                        # 최대값 갱신
-                        answer = max(answer, block * 2)
                         num = 0
                     else:
                         new_row.append(block)
@@ -66,8 +61,6 @@ def move(dir, level):
                 for block in col[1:]:
                     if block == num:
                         new_col[-1] = block * 2
-                        # 최대값 갱신
-                        answer = max(answer, block * 2)
                         num = 0
                     else:
                         new_col.append(block)
@@ -83,8 +76,6 @@ def move(dir, level):
                 for block in col[-2::-1]:
                     if block == num:
                         new_col[-1] = block * 2
-                        # 최대값 갱신
-                        answer = max(answer, block * 2)
                         num = 0
                     else:
                         new_col.append(block)
@@ -101,7 +92,11 @@ def move(dir, level):
 
 
 def dfs(level):
+    global answer
     if level >= 6:
+        # 마지막에 borad의 가장 큰 숫자를 찾으면 됨
+        for row in board:
+            answer = max(answer, max(row))
         return
     move(1, level)  # 왼쪽
     move(2, level)  # 오른쪽
