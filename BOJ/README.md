@@ -139,3 +139,15 @@
 
 - [1915 가장 큰 정사각형](https://www.acmicpc.net/problem/1915)
 - [11066 파일 합치기](https://www.acmicpc.net/problem/11066)
+
+## 0725
+
+- [13460 구슬 탈출 2](https://www.acmicpc.net/problem/13460)
+- [12100 2048 (Easy)](https://www.acmicpc.net/problem/12100)
+
+## 0801
+
+- [13458 시험 감독](https://www.acmicpc.net/problem/13458)
+- [14501 퇴사](https://www.acmicpc.net/problem/14501)
+- [14499 주사위 굴리기](https://www.acmicpc.net/problem/14499)
+
