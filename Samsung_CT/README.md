@@ -24,3 +24,8 @@
 
 - [생명과학부 랩 인턴](https://www.codetree.ai/frequent-problems/biology-lab-intern/description)
 - [격자 숫자 놀이](https://www.codetree.ai/frequent-problems/matrix-number-play/description)
+
+## 0914
+
+- [조삼모사](https://www.codetree.ai/frequent-problems/three-at-dawn-and-four-at-dusk/description)
+- [이상한 체스](https://www.codetree.ai/frequent-problems/odd-chess/description)
