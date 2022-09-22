@@ -74,3 +74,8 @@
 - [[Level 2] 기능개발](https://school.programmers.co.kr/learn/courses/30/lessons/42586)
 - [[Level 2] 조이스틱](https://school.programmers.co.kr/learn/courses/30/lessons/42860)
 - [[Level 3] 셔틀버스](https://school.programmers.co.kr/learn/courses/30/lessons/17678)
+
+### 0928
+
+- [[Level 3] 양과 늑대](https://school.programmers.co.kr/learn/courses/30/lessons/92343)
+- [[Level 2] 양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342)
