@@ -79,3 +79,8 @@
 
 - [[Level 3] 양과 늑대](https://school.programmers.co.kr/learn/courses/30/lessons/92343)
 - [[Level 2] 양궁대회](https://school.programmers.co.kr/learn/courses/30/lessons/92342)
+
+### 1019
+
+- [[Level 1] 로또의 최고 순위와 최저 순위](https://school.programmers.co.kr/learn/courses/30/lessons/77484)
+- [[Level 3] 다단계 칫솔 판매](https://school.programmers.co.kr/learn/courses/30/lessons/77486)
