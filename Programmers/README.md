@@ -85,6 +85,11 @@
 - [[Level 1] 로또의 최고 순위와 최저 순위](https://school.programmers.co.kr/learn/courses/30/lessons/77484)
 - [[Level 3] 다단계 칫솔 판매](https://school.programmers.co.kr/learn/courses/30/lessons/77486)
 
+### 1026
+
+- [[Level 2] 행렬 테두리 회전하기](https://school.programmers.co.kr/learn/courses/30/lessons/77485)
+- [[Level 1] 성격 유형 검사하기](https://school.programmers.co.kr/learn/courses/30/lessons/118666)
+
 ### 1109
 
 - [[Level 2] 두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)
