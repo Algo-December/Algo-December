@@ -94,3 +94,8 @@
 
 - [[Level 2] 두 큐 합 같게 만들기](https://school.programmers.co.kr/learn/courses/30/lessons/118667)
 - [[Level 3] 등산코스 정하기](https://school.programmers.co.kr/learn/courses/30/lessons/118669)
+
+### 1130
+
+- [[Level 1] 기사단원의 무기](https://school.programmers.co.kr/learn/courses/30/lessons/136798)
+- [[Level 3] 숫자 타자 대회](https://school.programmers.co.kr/learn/courses/30/lessons/136797)
