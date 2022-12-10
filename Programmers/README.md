@@ -99,3 +99,8 @@
 
 - [[Level 1] 기사단원의 무기](https://school.programmers.co.kr/learn/courses/30/lessons/136798)
 - [[Level 3] 숫자 타자 대회](https://school.programmers.co.kr/learn/courses/30/lessons/136797)
+
+### 1214
+
+- [[Level 1] 과일 장수](https://school.programmers.co.kr/learn/courses/30/lessons/135808)
+- [[Level 2] 숫자 카드 나누기](https://school.programmers.co.kr/learn/courses/30/lessons/135807)
